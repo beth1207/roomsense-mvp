@@ -8,6 +8,9 @@
     "test": "tests"
   },
   "scripts": {
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "cd src/backend && npm start",
+    "start:frontend": "cd src/frontend && npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +18,9 @@
     "url": "roomsense"
   },
   "author": "beth1207",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
 }
