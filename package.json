@@ -1,0 +1,19 @@
+{
+  "name": "roomsense-mvp",
+  "version": "1.0.0",
+  "description": "RoomSense is an IoT-based smart room monitoring system designed to track and analyze environmental conditions such as temperature and humidity in real-time.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "roomsense"
+  },
+  "author": "beth1207",
+  "license": "ISC"
+}
