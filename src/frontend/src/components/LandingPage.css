@@ -1,0 +1,62 @@
+/* src/frontend/src/components/LandingPage.css */
+.landing-page {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #333;
+  }
+  
+  .landing-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 50px 20px;
+  }
+  
+  .landing-header .cover-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .landing-header h1 {
+    margin: 0;
+    font-size: 3em;
+  }
+  
+  .landing-header p {
+    font-size: 1.5em;
+    margin: 20px 0;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1em;
+    color: #4CAF50;
+    background-color: white;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  

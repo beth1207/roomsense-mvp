@@ -1,0 +1,28 @@
+/* src/frontend/src/components/FeatureSection.css */
+.features {
+    padding: 50px 20px;
+  }
+  
+  .feature-list {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .feature-item {
+    max-width: 300px;
+    margin: 20px;
+  }
+  
+  .feature-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .feature-item h3 {
+    font-size: 1.5em;
+  }
+  
+  .feature-item p {
+    font-size: 1em;
+  }
+  

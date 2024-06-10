@@ -1,0 +1,51 @@
+/* src/frontend/src/components/AboutSection.css */
+.about {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .team h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .team ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .team ul li {
+    margin-bottom: 10px;
+  }
+  
+  .team ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .github-link {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #4CAF50;
+    text-decoration: none;
+    border: 2px solid #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .github-link:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  

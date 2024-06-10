@@ -1,11 +1,39 @@
-/* src/App.css */
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.App {
+/* src/frontend/src/App.css */
+.intro-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 100% of the viewport height */
+    
+    background-size: cover;
+    background-position: center;
+    color: white; /* Ensure text is readable on the background */
     text-align: center;
-}
+    padding: 50px;
+  }
+  
+  .intro-section h1 {
+    font-size: 2.5em;
+    margin: 20px 0;
+  }
+  
+  .intro-section p {
+    font-size: 1.2em;
+    margin: 20px 0;
+  }
+  
+  .intro-section .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(0, 123, 255, 0.8); /* Semi-transparent background */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .intro-section .button:hover {
+    background-color: rgba(0, 86, 179, 0.8);
+  }
+  

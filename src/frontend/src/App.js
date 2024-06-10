@@ -1,22 +1,27 @@
-// src/App.js
-
+// src/frontend/src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Dashboard from './components/Dashboard';
-import Home from './components/Home';
+import Navbar from './components/Navbar';
+import IntroSection from './components/IntroSection';
+import FeatureSection from './components/FeatureSection';
+import AboutSection from './components/AboutSection';
 import './App.css';
 
-const App = () => {
-    return (
-        <Router>
-            <div className="App">
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/dashboard" element={<Dashboard />} />
-                </Routes>
-            </div>
-        </Router>
-    );
-};
+function App() {
+  return (
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<>
+            <IntroSection />
+            <FeatureSection />
+            <AboutSection />
+          </>} />
+        </Routes>
+      </div>
+    </Router>
+  );
+}
 
 export default App;
